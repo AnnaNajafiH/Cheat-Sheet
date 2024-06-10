@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MERN Full-Stack Chrat Sheet</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="intro">
+                
+                 <div>
+                    <div class="language">
+                        <h2>Prerequisites</h2>
+                         <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Git and GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="language">
+                        <h2>Tools</h2>
+                         <ul>
+                            <li>Code Editor (e.g., Visual Studio Code, Webstorm)
+</li>
+                            <li>Command Line Interface (CLI)
+</li>
+                            <li>Git and GitHub</li>
+                            <li>Isomnia or Postman (for API testing
+</li>
+<li>
+   MongoDB (Compass app recommended) (to connect your Database)
+ 
+</li>
+<li>
+    Design Tool of your preference (Figma, Excalidraw, Miro e.g.) for your projects wireframe
+
+</li>
+<li>
+    Netlify, Render, Heroku e.g. (for Deployment)
+</li>
+<li>
+    Netlify, Render, Heroku e.g. (for Deployment)
+</li>
+
+
+<li>
+    Trello (create Kanban board to overview tasks & progress)
+
+</li>
+                        </ul>
+                    </div>
+                    </div>
+                        
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="two-column">
+                <div class="column">
+                    <h2>BACKEND</h2>
+
+                    <div class="language">
+                        <h3>EXPRESS</h3>
+                         <ul>
+                            <li>Express is a minimal and flexible Node.js web application framework.
+</li>
+                            <li>Setting up Express: const express = require('express'); const app = express();
+</li>
+                            <li>Routing: Define routes using app.get, app.post, app.put, and app.delete.
+</li>
+                            <li>Using Middleware: Apply middleware with app.use.
+</li>
+
+                            <li>Creating Custom Middleware: Create functions that have access to req, res, and next.
+</li>
+                            <li>Handling Errors in Express: Use middleware for error handling with four parameters (err, req, res, next).
+</li>
+                            <li> Keep your code modular, use environment variables for sensitive data, and write clean, readable code.
+</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="language">
+                        <h3>MONGO DB</h3>
+                         <ul>
+                            <li>What is MongoDB? MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.
+Installing MongoDB: Follow the instructions on the official MongoDB website.
+Commands: Use MongoDB shell or drivers to interact with the database.
+</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                  
+
+                    <div class="version-control">
+                        <h3> NEXT STEPS
+</h3>
+                        <ul>
+                            <li>install dependencies
+</li>
+                            <li>setup routes
+</li>
+                            <li>define API-endpoints
+</li>
+                            <li>setup Middelware
+</li>
+<li>error handling
+</li>
+<li>setup controller
+</li>
+<li>setup models
+</li>
+<li>db schemas
+</li>
+                        </ul>
+                    </div>
+                    <div class="version-control">
+                        <h3>MONGOOSE</h3>
+                        <ul>
+                            <li>What is Mongoose? Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js.
+</li>
+                            <li>Connecting to MongoDB with Mongoose: mongoose.connect('mongodb_uri')
+</li>
+                            <li> Schemas and Models: Define your data schema and create models to interact 
+</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section>
+            <div class="two-column">
+                <div class="column">
+                    <h2>FRONTEND</h2>
+
+                    <div class="language">
+                        <h3>REACT</h3>
+                         <ul>
+                            <li>React is a JavaScript library for building user interfaces, focusing on the component-based architecture. 
+</li>
+                            <li>Setting up a React Project: Use tools like Create React App to quickly set up a new React project with all the necessary dependencies.
+</li>
+                            <li>Components: React applications are built using components, which are reusable, self-contained modules. There are two types of components: Functional and Class components.
+</li>
+                            <li>Props and State: Components can receive data through props and manage their internal state using the useState hook or class-based state.
+</li>
+                            <li>Hooks: React provides several built-in hooks to manage component lifecycle and state. Commonly used hooks include useState, useEffect, useContext, useReducer, useRef, useMemo, and useCallback.
+</li>
+                            <li>Routing: For single-page applications (SPAs), React Router is a popular library for handling client-side routing. It allows you to define different routes and navigate between them seamlessly. React Router also supports nested routes for complex applications.
+</li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+                <div class="column">
+                    
+
+                    <div class="version-control">
+                        <h3>BOOTSTRAP</h3>
+                        <ul>
+                            <li>Popular CSS framework for building responsive, mobile-first websites.
+</li>
+                            <li>Installation: Add via CDN or npm: npm install bootstrap
+</li>
+                            <li>Grid System: 12-column grid for responsive layouts.
+</li>
+                            <li>Utility Classes: Extensive set of utilities for styling and layout.
+</li>
+<li>Components: Pre-built UI components like buttons, forms, modals.
+</li>
+                        </ul>
+                    </div>
+                  <div class="language">
+                        <h3>TAILWIND</h3>
+                         <ul>
+                            <li> Utility-first CSS framework for creating custom designs without writing CSS.
+</li>
+                            <li>Installation: Add via CDN or npm: npm install tailwindcss
+</li>
+                            <li>Utility Classes: Extensive set of utilities for styling.
+</li>
+                            <li>Responsive Design: Built-in responsive utilities.
+</li>
+                            <li>Customization: Highly configurable via tailwind.config.js.
+</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="two-column">
+                <div class="column">
+                    <h2>LAST STEPS & INFOS</h2>
+
+                    <div class="language">
+                        <h3>DEPLOYMENT</h3>
+                        <h2>Deployment Options
+</h2>
+                         <ul>
+                            <li>Heroku</li>
+                            <li>Netlify</li>
+                            <li>Vercel</li>
+                            <li>Render.com</li>
+                            <li>Environment Variables Managing Env Variables</li>
+                            <li>Security Best Practices</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="language">
+                        <h3>BEST PRACTICES</h3>
+                        <h2>Code Structure
+
+</h2>
+                         <ul>
+                            <li>Organizing Files and Folders
+</li>
+                            <li>Naming Conventions
+</li>
+                            <li>Performance Optimization Caching
+</li>
+                            <li>Lazy Loading in React
+</li>
+                            <li>Security Protecting Sensitive Data
+</li>
+                            <li>Avoiding Common Vulnerabilities
+</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                  
+
+                    <div class="version-control">
+                        <h3>RESOURCES</h3>
+                        <ul>
+                       <a href="https://code.visualstudio.com/"><li>https://code.visualstudio.com/</li></a>
+                       <a href="https://github.com/
+"><li>https://github.com/
+</li></a>
+                       <a href="https://insomnia.rest/ "><li>https://insomnia.rest/ </li></a>
+                       <a href="https://www.postman.com/
+"><li>https://www.postman.com/
+</li></a>
+                       <a href="https://www.mongodb.com/
+"><li>https://www.mongodb.com/
+</li></a>
+                       <a href="https://trello.com
+"><li>https://trello.com
+</li></a>
+                       <a href="https://www.figma.com
+"><li>https://www.figma.com
+</li></a>
+                       <a href=" https://excalidraw.com/
+"><li> https://excalidraw.com/
+</li></a>
+                       <a href="https://miro.com
+"><li>https://miro.com
+</li></a>
+                       <a href="https://www.netlify.com/
+"><li>https://www.netlify.com/
+</li></a>
+                       <a href="https://render.com/
+"><li>https://render.com/
+</li></a>
+                       <a href=" https://www.heroku.com/
+"><li> https://www.heroku.com/
+</li></a>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+       
+
+      
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
